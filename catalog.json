@@ -1,0 +1,106 @@
+{
+  "extensions": [
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "redhat-authentication",
+      "displayName": "Red Hat Authentication",
+      "shortDescription": "Login to Red Hat Developers",
+      "license": "Apache-2.0",
+      "categories": ["Authentication"],
+      "keywords": ["redhat", "authentication", "login"],
+      "versions": [
+        {
+          "version": "preview",
+          "preview": true,
+          "lastUpdated": "2023-04-27T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-redhat-account-ext:latest",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "extensions/redhat/redhat-authentication/preview/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "extensions/redhat/redhat-authentication/preview/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "extensions/redhat/redhat-authentication/preview/LICENSE.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "redhat-sandbox",
+      "displayName": "Red Hat OpenShift Sandbox",
+      "shortDescription": "Sign up and provisioning for OpenShift Sandbox",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["redhat", "sandbox"],
+      "versions": [
+        {
+          "version": "preview",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:latest",
+          "lastUpdated": "2023-04-27T00:00:00Z",
+          "preview": true,
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "extensions/redhat/redhat-sandbox/preview/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "extensions/redhat/redhat-sandbox/preview/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "extensions/redhat/redhat-sandbox/preview/LICENSE.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "crc-team",
+        "displayName": "CRC Team"
+      },
+      "extensionName": "openshift-local",
+      "displayName": "Red Hat OpenShift Local",
+      "shortDescription": "This extension provides a Red Hat OpenShift Local cluster and allows Podman Desktop to interact with it",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["OpenShift", "MicroShift"],
+      "versions": [
+        {
+          "version": "preview",
+          "preview": true,
+          "ociUri": "ghcr.io/crc-org/crc-extension:latest",
+          "lastUpdated": "2023-04-27T00:00:00Z",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "extensions/crc-team/openshift-local/preview/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "extensions/crc-team/openshift-local/preview/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "extensions/crc-team/openshift-local/preview/LICENSE.txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
