@@ -20,15 +20,15 @@
           "files": [
             {
               "assetType": "icon",
-              "data": "extensions/redhat/redhat-authentication/preview/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/preview/icon.png"
             },
             {
               "assetType": "README",
-              "data": "extensions/redhat/redhat-authentication/preview/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/preview/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "extensions/redhat/redhat-authentication/preview/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-authentication/preview/LICENSE.txt"
             }
           ]
         }
@@ -54,15 +54,15 @@
           "files": [
             {
               "assetType": "icon",
-              "data": "extensions/redhat/redhat-sandbox/preview/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/preview/icon.png"
             },
             {
               "assetType": "README",
-              "data": "extensions/redhat/redhat-sandbox/preview/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/preview/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "extensions/redhat/redhat-sandbox/preview/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/preview/LICENSE.txt"
             }
           ]
         }
@@ -88,15 +88,15 @@
           "files": [
             {
               "assetType": "icon",
-              "data": "extensions/crc-team/openshift-local/preview/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/crc-team/openshift-local/preview/icon.png"
             },
             {
               "assetType": "README",
-              "data": "extensions/crc-team/openshift-local/preview/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/crc-team/openshift-local/preview/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "extensions/crc-team/openshift-local/preview/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/crc-team/openshift-local/preview/LICENSE.txt"
             }
           ]
         }
