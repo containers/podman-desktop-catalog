@@ -121,7 +121,7 @@
       "keywords": ["OpenShift", "MicroShift"],
       "versions": [
         {
-          "version": "preview",
+          "version": "0.0.1",
           "preview": false,
           "ociUri": "ghcr.io/crc-org/crc-extension:latest",
           "lastUpdated": "2023-04-27T00:00:00Z",
