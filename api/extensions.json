@@ -68,8 +68,8 @@
       "versions": [
         {
           "version": "0.0.1",
-          "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:latest",
-          "lastUpdated": "2023-04-27T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:0.0.1",
+          "lastUpdated": "2023-05-17T00:00:00Z",
           "preview": false,
           "files": [
             {
