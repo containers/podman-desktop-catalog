@@ -82,7 +82,7 @@
             },
             {
               "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/0.0.1/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/0.0.1/LICENSE"
             }
           ]
         },
@@ -102,7 +102,7 @@
             },
             {
               "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/preview/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-sandbox/preview/LICENSE"
             }
           ]
         }
