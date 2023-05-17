@@ -121,22 +121,22 @@
       "keywords": ["OpenShift", "MicroShift"],
       "versions": [
         {
-          "version": "1.0.1",
+          "version": "1.0.2",
           "preview": false,
-          "ociUri": "quay.io/redhat-developer/openshift-local-extension:v1.0.1",
-          "lastUpdated": "2023-05-16T00:00:00Z",
+          "ociUri": "quay.io/redhat-developer/openshift-local-extension:v1.0.2",
+          "lastUpdated": "2023-05-17T00:00:00Z",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.1/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.2/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.1/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.2/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.1/LICENSE.txt"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-local/1.0.2/LICENSE.txt"
             }
           ]
         },
