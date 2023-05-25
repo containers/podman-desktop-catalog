@@ -39,6 +39,7 @@ jobs:
                   done
                 else 
                   echo "api/extensions.json removed, forbidden"
+                  exit 1
                 fi
 
             - name: Verify files
@@ -59,4 +60,5 @@ jobs:
                   done
                 else
                   echo "api/extensions.json removed, forbidden"
+                  exit 1
                 fi                
