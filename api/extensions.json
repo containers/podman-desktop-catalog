@@ -14,6 +14,7 @@
       "versions": [
         {
           "version": "0.0.1",
+          "preview": false,
           "lastUpdated": "2023-04-27T00:00:00Z",
           "ociUri": "ghcr.io/redhat-developer/podman-desktop-redhat-account-ext:latest",
           "files": [
