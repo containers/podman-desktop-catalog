@@ -262,6 +262,60 @@
           ]
         }
       ]
+    },
+    {
+      "publisher": {
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
+      },
+      "extensionName": "minikube",
+      "displayName": "minikube",
+      "shortDescription": "Integration for minikube: a tool that makes it easy to run Kubernetes locally",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "minikube"],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "preview": false,
+          "lastUpdated": "2023-11-16T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-minikube:0.1.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.1.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.1.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/0.1.0/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "preview",
+          "preview": true,
+          "lastUpdated": "2023-11-16T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-minikube:latest",
+          "files": [
+              {
+                "assetType": "icon",
+                "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/preview/icon.png"
+              },
+              {
+                "assetType": "README",
+                "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/preview/README.md"
+              },
+              {
+                "assetType": "LICENSE",
+                "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/minikube/preview/LICENSE"
+              }
+            ]
+          }
+      ]
     }
   ]
 }
