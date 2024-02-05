@@ -347,12 +347,32 @@
       "shortDescription": "Support for bootable OS containers (bootc) and generating disk images",
       "license": "Apache-2.0",
       "categories": ["Containers"],
-      "keywords": ["bootc"],
+      "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
+        {
+          "version": "0.2.0",
+          "preview": false,
+          "lastUpdated": "2024-02-05T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-bootc:0.2.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/0.2.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/0.2.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/bootc/0.2.0/LICENSE"
+            }
+          ]
+        },
         {
           "version": "0.1.0",
           "preview": false,
-          "lastUpdated": "2024-12-29T00:00:00Z",
+          "lastUpdated": "2024-01-29T00:00:00Z",
           "ociUri": "ghcr.io/containers/podman-desktop-extension-bootc:0.1.0",
           "files": [
             {
@@ -372,7 +392,7 @@
         {
           "version": "preview",
           "preview": true,
-          "lastUpdated": "2024-12-29T00:00:00Z",
+          "lastUpdated": "2024-01-29T00:00:00Z",
           "ociUri": "ghcr.io/containers/podman-desktop-extension-bootc:latest",
           "files": [
               {
