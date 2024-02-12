@@ -464,6 +464,40 @@
             ]
           }
       ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "openshift-checker",
+      "displayName": "Red Hat OpenShift Checker",
+      "shortDescription": "Analyze a Containerfile and highlight the directives and commands which could cause an unexpected behavior when running on an OpenShift cluster.",
+      "license": "Apache-2.0",
+      "categories": ["Containers"],
+      "keywords": ["OpenShift", "image", "checker"],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "preview": false,
+          "lastUpdated": "2024-02-09T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-image-checker-openshift-ext:0.1.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.0/LICENSE"
+            }
+          ]
+        }
+      ]
     }	
   ]
 }
