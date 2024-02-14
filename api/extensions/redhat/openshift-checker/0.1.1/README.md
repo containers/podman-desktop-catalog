@@ -1,10 +1,10 @@
-# Docker OpenShift Analyzer
+# OpenShift Checker
 
-The Docker OpenShift analyzer is a tool whose goal is to analyze a Dockerfile and highlight the directives and commands which could cause an unexpected behavior when running on an OpenShift cluster.
+The OpenShift checker is a tool whose goal is to analyze a Containerfile and highlight the directives and commands which could cause an unexpected behavior when running on an OpenShift cluster.
 
-In many cases a Dockerfile could work fine on a Kubernetes cluster and fail on OpenShift because of its security restrictions. This tool should help finding what is wrong and driving users to update their Dockerfiles to make them OpenShift compliant.
+In many cases a Containerfile could work fine on a Kubernetes cluster and fail on OpenShift because of its security restrictions. This tool should help finding what is wrong and driving users to update their Containerfiles to make them OpenShift compliant.
 
-The Dockerfile's directives and commands currently supported are listed below.
+The Containerfile's directives and commands currently supported are listed below.
 
 ### User directive
 
@@ -92,7 +92,7 @@ To build and use the cli, execute
 
 ```
 go build -o doa[.exe]
-doa[.exe] analyze -f /your/local/project/path[/Dockerfile_name]
+doa[.exe] analyze -f /your/local/project/path[/Containerfile_name]
 ```
 
 Podman Desktop Extension
@@ -110,11 +110,11 @@ For information on getting started, refer to the [CONTRIBUTING instructions](CON
 Feedback & Questions
 ====================
 If you discover an issue please file a bug and we will fix it as soon as possible.
-* File a bug in [GitHub Issues](https://github.com/lstocchi/docker-openshift-analyzer).
+* File a bug in [GitHub Issues](https://github.com/redhat-developer/podman-desktop-image-checker-openshift-ext/issues).
 
 License
 =======
-EPL 2.0, See [LICENSE](LICENSE) for more information.
+Apache 2.0, See [LICENSE](LICENSE) for more information.
 
 Acknowledgments
 ===============
