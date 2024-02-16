@@ -538,6 +538,60 @@
           ]
         }
       ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "redhat-pack",
+      "displayName": "Red Hat Extension Pack",
+      "shortDescription": "Get extensions of Red Hat for Podman Desktop",
+      "license": "Apache-2.0",
+      "categories": ["Extension Packs"],
+      "keywords": ["redhat", "pack"],
+      "versions": [
+        {
+          "version": "0.1.1",
+          "preview": false,
+          "lastUpdated": "2024-02-29T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-redhat-pack-ext/podman-desktop-redhat-pack-ext:0.1.1",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/0.1.1/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/0.1.1/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/0.1.1/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "preview",
+          "preview": true,
+          "lastUpdated": "2024-02-29T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-redhat-pack-ext/podman-desktop-redhat-pack-ext:nightly",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/preview/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/preview/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/preview/LICENSE"
+            }
+          ]
+        }
+      ]
     }	
   ]
 }
