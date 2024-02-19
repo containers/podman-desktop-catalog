@@ -520,7 +520,7 @@
         {
           "version": "0.1.3",
           "preview": false,
-          "lastUpdated": "2024-02-16T00:00:00Z",
+          "lastUpdated": "2024-02-19T00:00:00Z",
           "ociUri": "ghcr.io/redhat-developer/podman-desktop-image-checker-openshift-ext:0.1.3",
           "files": [
             {
