@@ -444,6 +444,26 @@
       "keywords": ["AI", "Machine Learning", "LLM"],
       "versions": [
         {
+          "version": "0.3.0",
+          "preview": false,
+          "lastUpdated": "2024-03-27T00:00:00Z",
+          "ociUri": "ghcr.io/projectatomic/ai-studio:0.3.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-studio/0.3.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-studio/0.3.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-studio/0.3.0/LICENSE"
+            }
+          ]
+        },
+        {
           "version": "0.2.0",
           "preview": false,
           "lastUpdated": "2024-03-16T00:00:00Z",
