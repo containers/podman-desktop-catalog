@@ -550,6 +550,60 @@
         "publisherName": "redhat",
         "displayName": "Red Hat"
       },
+      "extensionName": "ai-lab",
+      "displayName": "AI Lab",
+      "shortDescription": "Empowers developers to AI",
+      "license": "Apache-2.0",
+      "categories": ["AI", "Machine Learning", "LLM"],
+      "keywords": ["AI", "Machine Learning", "LLM"],
+      "versions": [
+        {
+          "version": "0.4.0",
+          "preview": false,
+          "lastUpdated": "2024-04-10T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:0.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/0.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/0.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/0.4.0/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "preview",
+          "preview": true,
+          "lastUpdated": "2024-04-10T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:nightly",
+          "files": [
+              {
+                "assetType": "icon",
+                "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/preview/icon.png"
+              },
+              {
+                "assetType": "README",
+                "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/preview/README.md"
+              },
+              {
+                "assetType": "LICENSE",
+                "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/preview/LICENSE"
+              }
+            ]
+          }
+      ]
+    },	
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
       "extensionName": "openshift-checker",
       "displayName": "Red Hat OpenShift Checker",
       "shortDescription": "Analyze a Containerfile and highlight the directives and commands which could cause an unexpected behavior when running on an OpenShift cluster.",
