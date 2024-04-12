@@ -366,6 +366,7 @@
       "displayName": "Bootable Containers",
       "shortDescription": "Support for bootable OS containers (bootc) and generating disk images",
       "license": "Apache-2.0",
+      "unlisted": true,
       "categories": ["Containers"],
       "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
@@ -572,6 +573,7 @@
       },
       "extensionName": "ai-lab",
       "displayName": "AI Lab",
+      "unlisted": true,
       "shortDescription": "Empowers developers to AI",
       "license": "Apache-2.0",
       "categories": ["AI", "Machine Learning", "LLM"],
