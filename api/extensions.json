@@ -16,7 +16,7 @@
         {
           "version": "1.0.0",
           "preview": false,
-          "lastUpdated": "2024-03-22T00:00:00Z",
+          "lastUpdated": "2024-04-23T00:00:00Z",
           "ociUri": "quay.io/redhat-developer/podman-desktop-redhat-account-ext:1.0.0",
           "files": [
             {
