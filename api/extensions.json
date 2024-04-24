@@ -446,7 +446,6 @@
       "displayName": "Bootable Containers",
       "shortDescription": "Bootable OS containers (bootc) and disk image generation",
       "license": "Apache-2.0",
-      "unlisted": true,
       "categories": ["Containers"],
       "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
@@ -619,7 +618,6 @@
       },
       "extensionName": "ai-lab",
       "displayName": "Podman AI Lab",
-      "unlisted": true,
       "shortDescription": "Empowers developers to AI",
       "license": "Apache-2.0",
       "categories": ["AI", "Machine Learning", "LLM"],
