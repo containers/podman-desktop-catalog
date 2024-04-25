@@ -519,7 +519,7 @@
         "displayName": "Red Hat"
       },
       "extensionName": "ai-lab",
-      "displayName": "AI Lab",
+      "displayName": "Podman AI Lab",
       "unlisted": true,
       "shortDescription": "Empowers developers to AI",
       "license": "Apache-2.0",
