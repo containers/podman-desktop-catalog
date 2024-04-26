@@ -649,7 +649,7 @@
       },
       "extensionName": "redhat-pack",
       "displayName": "Red Hat Extension Pack",
-      "shortDescription": "Recommended Red Hat extensions for Podman Desktop",
+      "shortDescription": "Recommended Red Hat extensions",
       "license": "Apache-2.0",
       "categories": ["Extension Packs"],
       "keywords": ["redhat", "pack"],
