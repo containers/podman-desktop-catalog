@@ -792,6 +792,26 @@
       "keywords": ["redhat", "pack"],
       "versions": [
         {
+          "version": "1.0.1",
+          "preview": false,
+          "lastUpdated": "2024-05-07T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-redhat-pack-ext:1.0.1",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/1.0.1/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/1.0.1/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/redhat-pack/1.0.1/LICENSE"
+            }
+          ]
+        },
+        {
           "version": "0.2.0",
           "preview": false,
           "lastUpdated": "2024-04-08T00:00:00Z",
