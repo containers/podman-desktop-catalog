@@ -601,22 +601,22 @@
       "keywords": ["OpenShift", "image", "checker"],
       "versions": [
         {
-          "version": "0.1.4",
+          "version": "0.1.5",
           "preview": false,
-          "lastUpdated": "2024-04-30T00:00:00Z",
-          "ociUri": "ghcr.io/redhat-developer/podman-desktop-image-checker-openshift-ext:0.1.4",
+          "lastUpdated": "2024-05-02T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-image-checker-openshift-ext:0.1.5",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.4/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.5/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.4/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.5/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.4/LICENSE"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/openshift-checker/0.1.5/LICENSE"
             }
           ]
         },
