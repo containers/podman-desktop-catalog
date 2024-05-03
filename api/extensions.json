@@ -586,22 +586,22 @@
       "keywords": ["AI", "Machine Learning", "LLM"],
       "versions": [
         {
-          "version": "1.1.0",
+          "version": "1.1.1",
           "preview": false,
           "lastUpdated": "2024-05-03T00:00:00Z",
-          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.1.0",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.1.1",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.0/icon.png"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.1/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.0/README.md"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.1/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.0/LICENSE"
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/ai-lab/1.1.1/LICENSE"
             }
           ]
         },
