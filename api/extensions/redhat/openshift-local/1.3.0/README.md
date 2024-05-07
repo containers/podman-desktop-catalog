@@ -6,6 +6,24 @@
 
 Integration for [Red Hat OpenShift Local][product page] clusters. It will help you install and set up the environment. and allows you to control the lifecycle and configuration from [Podman Desktop][podman-desktop].
 
+## Usage
+
+![1](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/1-crc-ext-settings.png)
+![2](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/2-crc-ext-create-new-resource.png)
+![3](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/3-crc-ext-connection.png)
+![4](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/4-crc-ext-tray-menu.png)
+![5](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/5-crc-ext-open-pull-page.png)
+![6](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/6-crc-ext-pull-image-form.png)
+![7](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/7-crc-ext-pull-image-result.png)
+![8](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/8-crc-ext-push-image-to-cluster.png)
+![9](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/9-crc-ext-push-image-progress.png)
+![10](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/10-crc-ext-run-container-button.png)
+![11](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/11-crc-ext-run-container-form.png)
+![12](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/12-crc-ext-open-deploy-to-kube-form.png)
+![13](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/13-crc-ext-deploy-to-kube-form.png)
+![14](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/14-crc-ext-deploy-to-kube-form-result.png)
+![14](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/15-crc-ext-browser-view.png)
+
 ## Requirements
 
 You are required to have a working [Podman Desktop][podman-desktop] installation.
