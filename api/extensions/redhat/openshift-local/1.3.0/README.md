@@ -1,8 +1,4 @@
-![](icon.png)
-
 # Red Hat OpenShift Local extension
-
-## About
 
 Integration for [Red Hat OpenShift Local][product page] clusters. It will help you install and set up the environment. and allows you to control the lifecycle and configuration from [Podman Desktop][podman-desktop].
 
