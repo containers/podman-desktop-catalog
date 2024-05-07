@@ -36,7 +36,7 @@ After the image sucessfully pulled from the registry press `Done` button to navi
 
 ![7](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/7-crc-ext-pull-image-result.png)
 
-Show context menu for `httpd-24` image you just pulled by clicking on right most button in the image row. Then select `Push to OpenSift Local` menu item.
+Show context menu for `httpd-24` image you just pulled by clicking on right most button in the image row. Then select `Push image to OpenSift Local Cluster` menu item.
 
 ![8](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/8-crc-ext-push-image-to-cluster.png)
 
@@ -44,16 +44,30 @@ You can watch progress for `Push` command it Podman Tesktop task view.
 
 ![9](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/9-crc-ext-push-image-progress.png)
 
-When `Push` command finished successfully you are ready to deploy your image to OpenShift Local cluster. First start local container from `httpd-24` image using `Run` button for the image.
+When `Push` command is done the image is ready to be deployed to OpenShift Local cluster. First start a local container from the image using `Run` button.
 
 ![10](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/10-crc-ext-run-container-button.png)
 
-
+On `Run image` form leave default values and press `Start Container` button.
 
 ![11](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/11-crc-ext-run-container-form.png)
+
+After local container is up and running it can be deployed to OpenShift Local cluster using `Deploy to Kubernetes` command in upper right corner
+of `Container Details' page.
+
 ![12](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/12-crc-ext-open-deploy-to-kube-form.png)
+
+On `Deploy to Kubernetes` form make sure the `Kubernetes Context` field is `crc-admin` and press `Deploy` button.
+
 ![13](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/13-crc-ext-deploy-to-kube-form.png)
+
+The bottom part of the page will show the status of deployment. When `Container statuses` contains `Ready (Running)` it means `httpd` server is running in
+OpenShift Local cluster. There is also a link to open OpenShift Developer Console for the cluster.
+
 ![14](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/14-crc-ext-deploy-to-kube-form-result.png)
+
+Clickin on link below 'Container statuses` should open `httpd` server index page.
+
 ![14](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/15-crc-ext-browser-view.png)
 
 ## Requirements
@@ -82,15 +96,10 @@ To pull container images from the registry, a pull secret is necessary. You can 
 #### Procedure
 
 1. Open Podman Desktop dashboard.
-1. Go to the **Settings > Extensions > Install a new extension from OCI Image**.
-1. **Name of the image**: Enter
-
-   ```
-   quay.io/redhat-developer/openshift-local-extension:latest
-   ```
-
-1. Click on the **Install extension from the OCI image** button.
-
+1. Go to the **Extensions** page.
+   ![16](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/16-crc-ext-extensions.png)
+1. Swithch to **Catalog** tab and click on install icon in `Red Hat OpenShift Local` item.
+   ![17](https://raw.githubusercontent.com/containers/podman-desktop-media/openshift-local/readme/17-crc-ext-install.png)
 
 ## Features
 
