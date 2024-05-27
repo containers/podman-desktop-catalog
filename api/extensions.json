@@ -651,7 +651,7 @@
           "version": "0.23.1",
           "preview": false,
           "lastUpdated": "2024-04-23T00:00:00Z",
-          "ociUri": "docker.io/headlamp/headlamp-docker-extension:0.23.1",
+          "ociUri": "index.docker.io/headlamp/headlamp-docker-extension:0.23.1",
           "files": [
             {
               "assetType": "icon",
