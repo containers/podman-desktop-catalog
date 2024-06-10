@@ -892,6 +892,40 @@
           ]
         }
       ]
-    }	
+    },
+    {
+      "publisher": {
+        "publisherName": "headlamp",
+        "displayName": "Headlamp"
+      },
+      "extensionName": "Headlamp",
+      "displayName": "Headlamp",
+      "shortDescription": "An easy-to-use and extensible web UI for Kubernetes.",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes", "Docker Desktop"],
+      "keywords": ["headlamp", "kubernetes", "dashboard"],
+      "versions": [
+        {
+          "version": "0.23.1",
+          "preview": false,
+          "lastUpdated": "2024-04-23T00:00:00Z",
+          "ociUri": "index.docker.io/headlamp/headlamp-docker-extension:0.23.1",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/headlamp/0.23.1/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/headlamp/0.23.1/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/headlamp/0.23.1/LICENSE"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
