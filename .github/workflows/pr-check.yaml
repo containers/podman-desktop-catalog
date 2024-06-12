@@ -25,7 +25,7 @@ on:
 jobs:
     verify:
         name: Verify
-        runs-on: ubuntu-22.04
+        runs-on: ubuntu-24.04
         steps:
             - uses: actions/checkout@v3
 
@@ -35,7 +35,18 @@ jobs:
                   for i in `jq -r .extensions[].versions[].ociUri api/extensions.json`
                   do
                     echo "Verify image $i"
-                    podman pull -q $i
+                    CONTAINER_ID=$(podman create -q --entrypoint sh $i)
+                    podman export ${CONTAINER_ID} | tar -t > ${CONTAINER_ID}.content
+                    # if podman desktop extension
+                    if grep -q "extension/package.json" ${CONTAINER_ID}.content; then
+                      if ! grep -q "extension/README.md" ${CONTAINER_ID}.content; then
+                        echo "The image ${i} does not include a mandatory README.md file"
+                        exit 1
+                      fi
+                    elif grep -q "metadata.json" ${CONTAINER_ID}.content; then
+                      # docker desktop extension
+                      echo "skipping README check as it is a Docker Desktop extension"
+                    fi
                   done
                 else 
                   echo "api/extensions.json removed, forbidden"
