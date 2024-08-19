@@ -645,6 +645,7 @@
       "versions": [
         {
           "version": "1.2.3",
+          "podmanDesktopVersion": "^1.12.0",
           "preview": false,
           "lastUpdated": "2024-08-19T00:00:00Z",
           "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.2.3",
