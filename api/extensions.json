@@ -1002,6 +1002,7 @@
       "versions": [
         {
           "version": "0.1.0",
+          "podmanDesktopVersion": "^1.13.0",
           "preview": false,
           "lastUpdated": "2024-09-16T00:00:00Z",
           "ociUri": "ghcr.io/containers/podman-desktop-extension-layers-explorer:0.1.0",
