@@ -145,7 +145,7 @@
       "shortDescription": "OpenShift Sandbox sign up and provisioning",
       "license": "Apache-2.0",
       "categories": ["Kubernetes"],
-      "keywords": ["redhat", "sandbox"],
+      "keywords": ["redhat", "sandbox", "provider", "remote"],
       "versions": [
         {
           "version": "0.0.4",
@@ -199,7 +199,7 @@
       "shortDescription": "Run Red Hat OpenShift locally",
       "license": "Apache-2.0",
       "categories": ["Kubernetes"],
-      "keywords": ["OpenShift", "MicroShift"],
+      "keywords": ["OpenShift", "MicroShift", "provider", "local"],
       "versions": [
         {
           "version": "2.0.0",
@@ -353,7 +353,7 @@
       "shortDescription": "Run Kubernetes locally",
       "license": "Apache-2.0",
       "categories": ["Kubernetes"],
-      "keywords": ["kubernetes", "minikube"],
+      "keywords": ["kubernetes", "minikube", "provider", "local"],
       "versions": [
         {
           "version": "0.3.0",
