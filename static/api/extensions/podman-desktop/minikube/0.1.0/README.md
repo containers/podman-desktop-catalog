@@ -1,0 +1,1 @@
+# podman-desktop-extension-minikube
