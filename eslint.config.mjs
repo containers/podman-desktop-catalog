@@ -77,7 +77,6 @@ export default [
         'eslint-import-resolver-custom-alias': {
           alias: {
             '/@': './src',
-            '/@gen': './src-generated',
           },
           extensions: ['.ts', '.svelte'],
         },
