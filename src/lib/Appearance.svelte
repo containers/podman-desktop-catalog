@@ -9,9 +9,11 @@ $effect(() => {
   // toggle the dark class on the html element
   if (isDarkTheme) {
     html.classList.add('dark');
+    html.classList.remove('light');
     html.setAttribute('style', 'color-scheme: dark;');
   } else {
     html.classList.remove('dark');
+    html.classList.add('light');
     html.setAttribute('style', 'color-scheme: light;');
   }
 });
