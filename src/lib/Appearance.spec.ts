@@ -52,7 +52,7 @@ function getRootElementClassesValue(container: HTMLElement): string | undefined 
 test('check initial light theme', async () => {
   const { baseElement } = render(Appearance, {});
   // expect to have no (dark) class as OS is using light
-  await vi.waitFor(() => expect(getRootElementClassesValue(baseElement)).toBe(''));
+  await vi.waitFor(() => expect(getRootElementClassesValue(baseElement)).toBe('light'));
 });
 
 test('check initial dark theme', async () => {
@@ -97,7 +97,7 @@ test('Expect event being changed when changing the default appearance on the ope
   userCallback();
 
   // check if it's now light
-  await vi.waitFor(() => expect(getRootElementClassesValue(baseElement)).toBe(''));
+  await vi.waitFor(() => expect(getRootElementClassesValue(baseElement)).toBe('light'));
 
   // now change to dark
   window.matchMedia = vi.fn().mockReturnValue({
