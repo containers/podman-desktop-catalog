@@ -30,8 +30,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))
       '@sveltejs/adapter-static':
-        specifier: ^3.0.5
-        version: 3.0.5(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))
+        specifier: ^3.0.6
+        version: 3.0.6(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))
       '@sveltejs/kit':
         specifier: ^2.7.3
         version: 2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7))
@@ -1226,8 +1226,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/adapter-static@3.0.5':
-    resolution: {integrity: sha512-kFJR7RxeB6FBvrKZWAEzIALatgy11ISaaZbcPup8JdWUdrmmfUHHTJ738YHJTEfnCiiXi6aX8Q6ePY7tnSMD6Q==}
+  '@sveltejs/adapter-static@3.0.6':
+    resolution: {integrity: sha512-MGJcesnJWj7FxDcB/GbrdYD3q24Uk0PIL4QIX149ku+hlJuj//nxUbb0HxUTpjkecWfHjVveSUnUaQWnPRXlpg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -4930,7 +4930,7 @@ snapshots:
       '@sveltejs/kit': 2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/adapter-static@3.0.5(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))':
+  '@sveltejs/adapter-static@3.0.6(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))':
     dependencies:
       '@sveltejs/kit': 2.7.3(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.0)(vite@5.4.10(@types/node@22.7.7))
 
