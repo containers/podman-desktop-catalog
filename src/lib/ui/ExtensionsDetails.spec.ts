@@ -21,33 +21,46 @@ import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/svelte';
 import { beforeEach, expect, test, vi } from 'vitest';
 
-import { catalogExtensions } from '$lib/extensions.svelte';
+import type { CatalogExtensionInfo } from '$lib/api/extensions-info';
 
-import catalogOfExtensions from '../../static/api/extensions.json';
-import Page from './+page.svelte';
+import ExtensionsDetails from './ExtensionsDetails.svelte';
 
 const fetchMock = vi.fn();
 
 beforeEach(() => {
   vi.resetAllMocks();
-  catalogExtensions.length = 0;
   window.fetch = fetchMock;
-  window.matchMedia = vi.fn().mockReturnValue({
-    matches: false,
-    addEventListener: vi.fn(),
-    removeEventListener: vi.fn(),
-  });
 });
 
-test('check fetch', async () => {
+test('check content', async () => {
+  const version = {
+    version: '1.0.0',
+    files: [
+      {
+        assetType: 'README',
+        data: 'http://fake-podman-desktop/my.readme',
+      },
+    ],
+  };
+  const extension: CatalogExtensionInfo = {
+    id: 'dummy1',
+    displayName: 'My Display Name',
+    shortDescription: 'My Description',
+    versions: [version],
+  } as unknown as CatalogExtensionInfo;
+
+  // mock readme
   fetchMock.mockResolvedValue({
     ok: true,
-    json: async () => ({ extensions: catalogOfExtensions.extensions }),
+    text: async () => '## hello world',
   });
-  render(Page);
 
-  expect(vi.mocked(fetch)).toHaveBeenCalledWith('https://registry.podman-desktop.io/api/extensions.json');
+  render(ExtensionsDetails, { extension });
 
-  // at least 4 categories should be displayed
-  await vi.waitFor(() => expect(screen.getAllByRole('region', { name: 'Category name' }).length).toBeGreaterThan(4));
+  // check display name is there
+  const displayName = screen.getByText('My Display Name');
+  expect(displayName).toBeInTheDocument();
+
+  // check readme is there
+  await vi.waitFor(() => expect(screen.getByText('hello world')).toBeInTheDocument());
 });

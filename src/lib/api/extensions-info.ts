@@ -15,18 +15,34 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  ***********************************************************************/
-
-/// <reference types="svelte" />
-
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
-declare global {
-  namespace App {
-    // interface Error {}
-    // interface Locals {}
-    // interface PageData {}
-    // interface Platform {}
-  }
+export interface CatalogExtensionVersionFileInfo {
+  assetType: 'icon' | 'LICENSE' | 'README';
+  data: string;
 }
 
-export {};
+export interface CatalogExtensionVersionInfo {
+  version: string;
+  podmanDesktopVersion?: string;
+  ociUri: string;
+  preview: boolean;
+  lastUpdated: Date;
+  files: CatalogExtensionVersionFileInfo[];
+}
+
+export interface CatalogExtensionInfo {
+  id: string;
+  publisherName: string;
+  publisherDisplayName: string;
+  extensionName: string;
+  categories: string[];
+  shortDescription: string;
+  displayName: string;
+  keywords: string[];
+  unlisted: boolean;
+  versions: CatalogExtensionVersionInfo[];
+}
+
+export interface ExtensionByCategoryInfo {
+  category: string;
+  extensions: CatalogExtensionInfo[];
+}

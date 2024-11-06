@@ -21,33 +21,30 @@ import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/svelte';
 import { beforeEach, expect, test, vi } from 'vitest';
 
-import { catalogExtensions } from '$lib/extensions.svelte';
+import type { CatalogExtensionInfo, ExtensionByCategoryInfo } from '$lib/api/extensions-info';
 
-import catalogOfExtensions from '../../static/api/extensions.json';
-import Page from './+page.svelte';
-
-const fetchMock = vi.fn();
+import ExtensionsByCategory from './ExtensionsByCategory.svelte';
 
 beforeEach(() => {
   vi.resetAllMocks();
-  catalogExtensions.length = 0;
-  window.fetch = fetchMock;
-  window.matchMedia = vi.fn().mockReturnValue({
-    matches: false,
-    addEventListener: vi.fn(),
-    removeEventListener: vi.fn(),
-  });
+  window.open = vi.fn();
 });
 
-test('check fetch', async () => {
-  fetchMock.mockResolvedValue({
-    ok: true,
-    json: async () => ({ extensions: catalogOfExtensions.extensions }),
-  });
-  render(Page);
+test('check content', async () => {
+  const extensionByCategoryInfo: ExtensionByCategoryInfo = {
+    category: 'category1',
+    extensions: [{ id: 'dummy1', displayName: 'My Display Name' } as unknown as CatalogExtensionInfo],
+  };
+  render(ExtensionsByCategory, { extensionByCategoryInfo });
+  // check region
+  const region = screen.getByRole('region', { name: 'Category name' });
+  expect(region).toBeInTheDocument();
 
-  expect(vi.mocked(fetch)).toHaveBeenCalledWith('https://registry.podman-desktop.io/api/extensions.json');
+  // check block of extensions
+  const regionExtensions = screen.getByRole('region', { name: 'Extensions of category category1' });
+  expect(regionExtensions).toBeInTheDocument();
 
-  // at least 4 categories should be displayed
-  await vi.waitFor(() => expect(screen.getAllByRole('region', { name: 'Category name' }).length).toBeGreaterThan(4));
+  // check extension dummy1 is there
+  const extensionDummy1 = screen.getByText('My Display Name');
+  expect(extensionDummy1).toBeInTheDocument();
 });
