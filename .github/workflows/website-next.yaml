@@ -48,7 +48,7 @@ jobs:
 
       - name: Run Build
         timeout-minutes: 20
-        run: pnpm website:build
+        run: pnpm build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
