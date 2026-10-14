@@ -2613,27 +2613,6 @@
       "keywords": ["image", "checker", "grype", "syft"],
       "versions": [
         {
-          "version": "0.1.0",
-          "podmanDesktopVersion": "^1.26.0",
-          "preview": false,
-          "lastUpdated": "2026-01-04T08:00:00Z",
-          "ociUri": "ghcr.io/podman-desktop/extension-grype:0.1.0",
-          "files": [
-            {
-              "assetType": "icon",
-              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/icon.png"
-            },
-            {
-              "assetType": "README",
-              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/README.md"
-            },
-            {
-              "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/LICENSE"
-            }
-          ]
-        },
-        {
           "version": "0.2.2",
           "podmanDesktopVersion": "^1.26.0",
           "preview": false,
@@ -2653,6 +2632,27 @@
               "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.2.2/LICENSE"
             }
           ]
+        },
+        {
+          "version": "0.1.0",
+          "podmanDesktopVersion": "^1.26.0",
+          "preview": false,
+          "lastUpdated": "2026-01-04T08:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/extension-grype:0.1.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/podman-desktop/grype/0.1.0/LICENSE"
+            }
+          ]
         }
       ]
     },
@@ -2668,26 +2668,6 @@
       "categories": ["Containers"],
       "keywords": ["image", "hummingbird"],
       "versions": [
-        {
-          "version": "0.1.1",
-          "preview": false,
-          "lastUpdated": "2026-04-21T00:00:00Z",
-          "ociUri": "ghcr.io/redhat-developer/podman-desktop-hummingbird-ext:0.1.1",
-          "files": [
-            {
-              "assetType": "icon",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/icon.png"
-            },
-            {
-              "assetType": "README",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/README.md"
-            },
-            {
-              "assetType": "LICENSE",
-              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/LICENSE"
-            }
-          ]
-        },
         {
           "version": "0.2.0",
           "preview": false,
@@ -2706,6 +2686,26 @@
             {
               "assetType": "LICENSE",
               "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.2.0/LICENSE"
+            }
+          ]
+        },
+        {
+          "version": "0.1.1",
+          "preview": false,
+          "lastUpdated": "2026-04-21T00:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-hummingbird-ext:0.1.1",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://registry.podman-desktop.io/api/extensions/redhat/hummingbird/0.1.1/LICENSE"
             }
           ]
         }
