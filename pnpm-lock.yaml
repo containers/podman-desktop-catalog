@@ -43,8 +43,8 @@ importers:
         specifier: ^7.3.1
         version: 7.3.1
       '@podman-desktop/ui-svelte':
-        specifier: 1.29.1
-        version: 1.29.1(svelte-fa@4.0.4(svelte@5.57.2(@typescript-eslint/types@8.71.2)))(svelte@5.57.2(@typescript-eslint/types@8.71.2))
+        specifier: 1.30.5
+        version: 1.30.5(svelte-fa@4.0.4(svelte@5.57.2(@typescript-eslint/types@8.71.2)))(svelte@5.57.2(@typescript-eslint/types@8.71.2))
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
         version: 7.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.71.2))(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2(@typescript-eslint/types@8.71.2))(typescript@6.0.3)(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1)))
@@ -462,8 +462,8 @@ packages:
   '@oxc-project/types@0.153.0':
     resolution: {integrity: sha512-jSNrRIyvPVLL5E1z/tS5zLAprosGz/FuI1PWwEOz59j3E4TTTzSpqKb/RDGqJhhW0QHYISGXxq582wGx6T11Tw==}
 
-  '@podman-desktop/ui-svelte@1.29.1':
-    resolution: {integrity: sha512-q7Uw1Jtw+mQuukFpV2F++Qh4FWviJCVLGgglSxeWSlhHXw58OTIOPTHiyLdxjP1flo3miUuYUAJwQ4LuIkQmKA==}
+  '@podman-desktop/ui-svelte@1.30.5':
+    resolution: {integrity: sha512-gJiXt7bQhEoNAwy6fi8dXZ9zr6WQVr6XGxlZrKl6LluL/nBcUCApjbbEZC+ws4icSoabSkrpCtN4p6VtvtTX9g==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
       svelte-fa: ^4.0.0
@@ -1710,8 +1710,8 @@ packages:
     resolution: {integrity: sha512-UikN5yr7xsCDAq87Or5or0PAlD3HJJOKVzM05az588WnpDJ4Ux7a2A53Qi6gofGg2/EtvF/H4hCi/TXfCW4Y6w==}
     engines: {node: ^22.13.0 || >=24.0.0}
 
-  humanize-duration@3.34.0:
-    resolution: {integrity: sha512-NDxhYxiiRzsST6xULIHuYWRvsCtviJXRdjarhyWyh78S4Ou+MWhM2k4HQ+y7iegdrzreXe11isd0au1N2PB/pQ==}
+  humanize-duration@3.35.0:
+    resolution: {integrity: sha512-+KYh+R85n1yadHHwy/QXF0JgPq5NPPBNrvigA5aAKrlKFd0bJpMx7wE3Xd6rM0kEaBQMCFrdMihkaDSgWERNvQ==}
 
   identifier-regex@1.1.0:
     resolution: {integrity: sha512-SLX4H/vtcYlYnL7XqnuJKHU7Z8517TgsW9nmQiGOgMCjQ8V/deLYu6bEmbGoXe7WMMhc9+EUGyFFneHja8KabA==}
@@ -3126,14 +3126,14 @@ snapshots:
 
   '@oxc-project/types@0.153.0': {}
 
-  '@podman-desktop/ui-svelte@1.29.1(svelte-fa@4.0.4(svelte@5.57.2(@typescript-eslint/types@8.71.2)))(svelte@5.57.2(@typescript-eslint/types@8.71.2))':
+  '@podman-desktop/ui-svelte@1.30.5(svelte-fa@4.0.4(svelte@5.57.2(@typescript-eslint/types@8.71.2)))(svelte@5.57.2(@typescript-eslint/types@8.71.2))':
     dependencies:
       '@floating-ui/dom': 1.8.0
       '@fortawesome/fontawesome-free': 7.3.1
       '@fortawesome/free-brands-svg-icons': 7.3.1
       '@fortawesome/free-regular-svg-icons': 7.3.1
       '@fortawesome/free-solid-svg-icons': 7.3.1
-      humanize-duration: 3.34.0
+      humanize-duration: 3.35.0
       moment: 2.31.0
       svelte: 5.57.2(@typescript-eslint/types@8.71.2)
       svelte-fa: 4.0.4(svelte@5.57.2(@typescript-eslint/types@8.71.2))
@@ -4399,7 +4399,7 @@ snapshots:
     transitivePeerDependencies:
       - '@noble/hashes'
 
-  humanize-duration@3.34.0: {}
+  humanize-duration@3.35.0: {}
 
   identifier-regex@1.1.0:
     dependencies:
