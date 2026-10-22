@@ -16,6 +16,7 @@ overrides:
   devalue@^5: ^5.9.3
   source-map-js@^1: ^1.2.2
   postcss-selector-parser@^7: ^7.1.6
+  '@vitest/mocker@^5': ^5.0.5
 nodeLinker: hoisted
 allowBuilds:
   unrs-resolver: true
